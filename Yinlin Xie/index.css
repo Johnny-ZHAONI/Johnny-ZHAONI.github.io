@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/aerial-view-of-miami-buena-vista-images.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    color: turquoise;
+    background-color: plum;
+    margin-top: 5%;
+    border-style:dashed;
+    border-width: 2px;
+}
+
+h1:hover{
+    font-size: 100px;
+    border-width: 0;
+    background-color: transparent;
+}
+
+h1:active{
+    color: transparent;
+    background-color: transparent;
+    
+
+}
+
+
+
