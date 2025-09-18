@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    margin-top: 25vw;
+}
+
+h1{
+    
+    color: white;
+    border-style: solid;
+ 
+    
+}
+
+#c1{
+    display: inline;
+    font-size: 2.5vw;
+   margin-left: 10%;
+}
+
+#c2{
+   display: inline;
+   font-size: 2.5vw;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+#c3{
+    font-size: 2.5vw;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-width: 20px;
+    padding: 50px;
+}
