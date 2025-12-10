@@ -1,58 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rickshaw Boy — A Small Hypertext Story</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rickshaw Boy | Lao She</title>
+    
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 引入 Google Fonts (衬线字体) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- 引入 React 和 Babel (用于解析 JSX) -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
-<body class="page page--intro">
-  <header class="site-header">
-    <h1>Rickshaw Boy</h1>
-    <p class="subtitle">A small hypertext fiction based on Lao She’s novel.</p>
-  </header>
+<body class="bg-black text-gray-200">
+    
+    <!-- React 应用挂载点 -->
+    <div id="root"></div>
 
-  <main class="content">
-    <section class="card">
-      <h2>The Morning</h2>
-      <p>
-        Beijing, early morning. The street is still gray.
-        Xiangzi wakes up in a small rented room. His body is sore,
-        but his dream is simple: one day, he will own his own rickshaw.
-      </p>
-      <p>
-        Today, he has a choice. He can go out and pull the rickshaw,
-        saving every coin. Or he can stay inside, rest his tired body,
-        and ignore the world outside for one day.
-      </p>
-
-      <p class="question">If you were Xiangzi, what would you do?</p>
-
-      <div class="choices">
-        <a class="choice choice--yes" href="street.html">
-          YES — Go out and pull the rickshaw
-        </a>
-        <a class="choice choice--no" href="rest.html">
-          NO — Stay inside and rest
-        </a>
-      </div>
-    </section>
-
-    <section class="note">
-      <p>
-        This website is a small hypertext fiction for a web design project.
-        You can move between pages by following different links and see how
-        Xiangzi’s day changes with each choice.
-      </p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>Created by Johnny for Web Design — Hypertext Fiction Project.</p>
-  </footer>
+    <!-- 引入 React 逻辑代码 (注意 type="text/babel") -->
+    <script type="text/babel" src="script.js"></script>
 </body>
 </html>
